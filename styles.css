@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('casa-assombrada.png'); /* Coloque o link da sua imagem de fundo aqui */
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1, h2 {
+    font-family: 'Creepster', cursive; /* Mude para uma fonte de Halloween se quiser */
+}
+
+.curiosidades, .jogos {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#fantasma {
+    position: absolute;
+    width: 50px; /* Ajuste o tamanho do fantasma */
+}
+
+.musicas-halloween ul {
+    list-style-type: none; /* Remove a marcação da lista */
+    padding: 0; /* Remove o padding da lista */
+}
+
+.musicas-halloween li {
+    display: flex; /* Usar flexbox para alinhar os itens */
+    align-items: center; /* Alinhar verticalmente ao centro */
+    margin-bottom: 10px; /* Espaçamento entre as músicas */
+}
+
+.musicas-halloween span {
+    margin-right: 10px; /* Espaço entre o título da música e o player */
+    flex-grow: 1; /* Faz o título ocupar o espaço disponível */
+}
+
+#submit-quiz {
+    display: block; /* Para garantir que ele se comporte como um bloco */
+    margin: 20px auto; /* Margem superior/inferior de 20px e centralização automática */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
